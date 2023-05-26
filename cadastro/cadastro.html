@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_cadastro.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="fundo">
+        <div class="barra">
+            <a href="../inicio/inicio.html" target="_self">
+            <img src="../imagens/vc.png" width="50%">
+            </a>
+            <div class="link3"></div>
+        </div>
+        <div class="meio"> 
+            <form class="formulario" action="php_inserircadastro.php" method="post">
+                <fieldset>
+                    <legend>CADASTRO</legend>
+                    <div class="texto"> Nome Completo: </div>
+                    <input type="text" class="caixa_larga1" name="nome" id="nome">
+                    <br> <br>
+                    <div class="texto">CPF:</div>
+                    <input type="text" class="caixa_larga1" placeholder="000.000.000-00" name="cpf" id="cpf" onkeyup="ValidacaoCPF();">
+                    <br> <br>
+                    <div class="texto">E-mail:</div>
+                    <input type="email" class="caixa_larga1" placeholder="example@example.com" name="email" id="email" onkeyup="ValidacaoEmail();">
+                    <br> <br>
+                    <div class="texto">Senha:</div>
+                    <input type="password" class="caixa_larga1" name="senha" id="senha" onkeyup="ValidacaoSenha();">
+                    <div id="erro" class="aviso" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
+                </fieldset>
+                <div class="escrita">
+                    Já possui conta?
+                    <a href="../entrar/entrar.html" target="_self" class="link2">Entrar</a>
+                </div>
+                <div class="botoes">
+                    <a href="../inicio/inicio.html" target="_self" class="link">Voltar</a> 
+                    <input type="submit" value="Continuar" class="link4">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="java_cadastro.js"></script>
+
+</html>

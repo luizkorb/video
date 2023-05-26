@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_filmes.css" />
+    <link rel="stylesheet" href="../filmes/style_menufilme.css">
+    <link rel="stylesheet" href="../filmes/style_menutop.css">
+    <script src="../filmes/java_menufilmes.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Filmes</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <ul>
+            <img src="../imagens/vc.png" width="80%">
+            <br><br>
+            <li class="list active">
+                <a href="#principal">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="../pesquisa/pesquisa.html">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></ion-icon></span>
+                    <span class="title">Pesquisa</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="../usuario/usuario.html">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="title">Conta</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="../fale_conosco/fale_conosco.html">
+                    <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                    <span class="title">Ajuda</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                    <span class="title">Sair</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <img src="../imagensfilmes/star21.jpg" class="principal" id="principal" width="95%">
+    <div
+    <div class="carrossel1">
+        <div class="texto"><b>Recomendado</b></div>
+        <div class="linha"></div>
+        <div class="filmes">
+            <img id="cityofgod" src="../imagensfilmes/cityofgod.jpg" height="100%" class="filme_imagem" onclick="playVideo()" alt="cityofgod">
+            <div id="player"></div>
+
+            <img src="../imagensfilmes/coringa.jpg" class="filme_imagem" height="100%">
+            <img src="../imagensfilmes/clubedaluta.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/boyznthehood.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/coachcarter.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/olobo.jfif" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/che.jpg" height="100%" class="filme_imagem">
+        </div>
+    </div>
+    <div class="carrossel1">
+        <div class="texto"><b>Filmes 3D </b><img src="../imagens/oculos.png" width="40px" class="imagem_oculos"></div>
+        <div class="linha"></div>
+        <div class="filmes">
+            <img src="../imagensfilmes/filme1.jpg" height="100%;" class="filme_imagem">
+            <img src="../imagensfilmes/filme2.jpg" height="100%;" class="filme_imagem">
+            <img src="../imagensfilmes/filme3.jpg" height="100%;" class="filme_imagem">
+            <img src="../imagensfilmes/filme4.jpg" height="100%;" class="filme_imagem">
+            <img src="../imagensfilmes/filme6.webp" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/panteranegra.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/hulk.jpg" height="100%" class="filme_imagem">
+        </div>
+    </div>
+    <img style="background: linear-gradient(to bottom, rgba(0,0,0,0), #000000), url('../imagensfilmes/vingadores.jpg');"
+     class="principal" id="principal" width="95%">
+    <div class="carrossel1">
+        <div class="texto"><b>Animações DC Comics</b></div>
+        <div class="linha"></div>
+        <div class="filmes">
+            <img src="../imagensfilmes/batmansilencio.jfif" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/morteemfamilia.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/supermansemlimites.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/batmanscooby.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/batinimigos.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/flashpoint.webp" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/batmancapuz.jpg" height="100%" class="filme_imagem">
+        </div>
+    </div>
+    <div class="carrossel1">
+        <div class="texto"><b>Filmes</b></div>
+        <div class="linha"></div>
+        <div class="filmes">
+            <img src="../imagensfilmes/matrix.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/filme7.webp" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/batman.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/lanternaverde.png" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/filme10.jpg" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/devolta.webp" height="100%" class="filme_imagem">
+            <img src="../imagensfilmes/johnwick.webp" height="100%" class="filme_imagem">
+        </div>
+    </div>
+    <br>
+    </div>
+    </div>
+    <script>
+        function playVideo() {
+            var img = document.getElementById('cityofgod');
+            var player = document.getElementById('player');
+            
+            img.style.display = 'none'; // Esconde a imagem
+
+            // Inserir o ID do vídeo do YouTube abaixo
+            var videoId = 'fZJUKixyeXM';
+            
+            // Construir a URL do vídeo do YouTube
+            var videoUrl = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+
+            // Inserir o player do YouTube na div do player
+            player.innerHTML = '<iframe width="560" height="315" src="' + videoUrl + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+        }
+    </script>
+</body>
+
+</html>

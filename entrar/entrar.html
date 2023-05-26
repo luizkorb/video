@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_entrar.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Entrar</title>
+</head>
+<body>
+    <div class="fundo">
+        <div class="barra">
+            <a href="../inicio/inicio.html" target="_self">
+            <img src="../imagens/vc.png" width="50%">
+            </a>
+            <div class="link3"></div>
+        </div>
+        <div class="meio">
+            <form class="formulario" action="atividade.php" method="post" target="_blank">
+                <fieldset>
+                    <legend>ENTRAR</legend>
+                    <div class="texto"> E-mail:</div>
+                    <input type="text" class="caixa_larga" id="e-mail" name="email">
+                    <br> <br>
+                    <div class="texto">Senha:</div>
+                    <input type="password" class="caixa_larga" id="senha" name="senha">
+                </fieldset>
+                <div class="escrita">
+                    Não possui conta?
+                    <a href="../cadastro/cadastro.html" target="_self" class="link1">Cadastra-se</a>
+                </div>
+                <div class="botoes">
+                    <a href="../inicio/inicio.html" target="_self" class="link">Voltar</a> 
+                    <input type="submit" class="continuar" value="Continuar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

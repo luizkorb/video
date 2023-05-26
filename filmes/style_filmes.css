@@ -1,0 +1,125 @@
+html,
+body {
+    height: 380vh;
+    width: 100%;
+    background-color: #010811;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.principal {
+    position: relative;
+    height: 600px;
+    margin-left: 78px;
+    filter: brightness(90%);
+    transition: 1s;
+}
+
+.principal:hover {
+    filter: brightness(100%);
+    transform:scale(100.5%);
+}
+
+.carrossel1 {
+    height: 340px;
+    width: 100%;
+    background-color: #111a25;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.123);
+    transition: 1s;
+}
+
+.carrossel1:hover {
+    background-color: #141e2b;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.178);
+    transform: scale(100.5%);
+}
+
+.carrossel1:hover .linha {
+    width: 70px;
+    transition: 0.5s;
+}
+
+.carrossel1:hover .texto {
+    transition: 0.5s;
+    font-size: 22px;
+}
+
+.filmes {
+    margin-left: 80px;
+    height: 250px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texto {
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: end;
+    align-content: end;
+    margin-left: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.281);
+    transition: 0.5s;
+}
+
+.filme_imagem {
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.178);
+    filter: brightness(95%);
+    transition: 0.5s;
+    border-radius: 20px;
+    width: 180px;
+}
+
+.filme_imagem:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.226);
+    filter: brightness(110%);
+    border-radius: 15px;
+}
+
+.imagem_oculos {
+    position: relative;
+    top: 5px;
+}
+
+.linha {
+    width: 0px;
+    height: 3px;
+    background-color: aliceblue;
+    margin-left: 95px;
+    border-radius: 1px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+::-webkit-scrollbar
+
+/* barra de rolagem */
+    {
+    width: 14px;
+    background-color: rgba(0, 2, 17, 0.082);
+    z-index: 1;
+}
+
+::-webkit-scrollbar-thumb
+
+/* meio da barra de rolagem */
+    {
+    background-color: #012d47;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #004974;
+}
